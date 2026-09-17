@@ -1,0 +1,30 @@
+[
+  {
+    "id": "founder-1",
+    "name": "Qli(कली)",
+    "role": "Founder & Director",
+    "bio": "Started SNQ in a spare bedroom with one camera. Still directs most of the studio's documentary work.",
+    "photo": ""
+  },
+  {
+    "id": "founder-2",
+    "name": "Nihal Ahmed",
+    "role": "Co-Founder & Head of Production",
+    "bio": "Runs day-to-day production and keeps every shoot on schedule and on budget.",
+    "photo": ""
+  },
+  {
+    "id": "editor-1",
+    "name": "Neha Singh",
+    "role": "Assistant Director,BTS Editor",
+    "bio": "Cuts most of the studio's narrative work. Believes every scene has one cut too many.",
+    "photo": ""
+  },
+  {
+    "id": "dop-1",
+    "name": "Sneha",
+    "role": "Assistant Director,Actor",
+    "bio": "Shoots on whatever the story needs — 16mm, drones, or a phone in a pinch.",
+    "photo": ""
+  }
+]

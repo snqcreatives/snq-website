@@ -1,0 +1,38 @@
+{
+  "studioName": "SNQ Creatives",
+  "shortName": "SNQ",
+  "tagline": "Independent stories, shot for the internet.",
+  "founded": "2021",
+  "youtubeChannel": "https://www.youtube.com/@snqstudios",
+  "nav": [
+    { "label": "About", "href": "/about" },
+    { "label": "Work", "href": "/work" },
+    { "label": "Team", "href": "/team" },
+    { "label": "Contact", "href": "/contact" }
+  ],
+  "hero": {
+    "featuredSeriesSlug": "the-pseudo-life",
+    "subheadline": "New episodes every week. Documentaries, series, and short films made by a small crew that cares about the craft."
+  },
+  "about": {
+    "vision": "We make video that respects the audience's attention. No filler, no clickbait — just stories worth the runtime, built for a generation that watches on their own terms.",
+    "story": [
+      "SNQ Creatives started in a spare bedroom in 2021 with one camera, a secondhand mic, and a shared conviction that independent, internet-native video could be as considered as anything made for television. What began as a two-person project shooting local stories on weekends grew, one upload at a time, into a small studio with a real slate of series, a growing crew, and an audience that shows up for every release.",
+      "We're still small on purpose. Every project that carries the SNQ name is shot, edited, and shipped by people in this studio — no ghost crews, no outsourced edits. That's slower, and it means we say no to a lot of work. It's also why the channel looks the way it does: consistent, deliberate, and made by people who'll answer for it."
+    ]
+  },
+  "contact": {
+    "phone": "+91 95402 63989",
+    "phone2": "+91 77425 00574",
+    "email": "snqcreatives@gmail.com",
+    "instagram": "https://www.instagram.com/snqcreatives",
+    "linktree": "https://linktr.ee/snqstudios",
+    "whatsapp": "https://wa.me/919540263989"
+  },
+  "socials": [
+    { "platform": "YouTube", "url": "https://www.youtube.com/@snqstudios" },
+    { "platform": "Instagram", "url": "https://www.instagram.com/snqcreatives" },
+    { "platform": "WhatsApp", "url": "https://wa.me/919540263989" },
+    { "platform": "Linktree", "url": "https://linktr.ee/snqstudios" }
+  ]
+}

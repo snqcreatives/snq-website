@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "the-pseudo-life",
+    "title": "The Pseudo Life",
+    "genre": "Web Series",
+    "description": "A 10-episode web series about the gap between the lives we perform online and the ones we actually live.",
+    "poster": "",
+    "featured": true,
+    "episodes": [
+      {
+        "id": "the-pseudo-life-01",
+        "episodeNumber": 1,
+        "title": "Episode 1",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0001",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-02",
+        "episodeNumber": 2,
+        "title": "Episode 2",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0002",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-03",
+        "episodeNumber": 3,
+        "title": "Episode 3",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0003",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-04",
+        "episodeNumber": 4,
+        "title": "Episode 4",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0004",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-05",
+        "episodeNumber": 5,
+        "title": "Episode 5",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0005",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-06",
+        "episodeNumber": 6,
+        "title": "Episode 6",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0006",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-07",
+        "episodeNumber": 7,
+        "title": "Episode 7",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0007",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-08",
+        "episodeNumber": 8,
+        "title": "Episode 8",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0008",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-09",
+        "episodeNumber": 9,
+        "title": "Episode 9",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0009",
+        "thumbnail": ""
+      },
+      {
+        "id": "the-pseudo-life-10",
+        "episodeNumber": 10,
+        "title": "Episode 10",
+        "description": "",
+        "duration": "",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TPL0010",
+        "thumbnail": ""
+      }
+    ]
+  }
+]
