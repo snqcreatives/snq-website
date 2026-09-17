@@ -29,12 +29,6 @@ export default function ContactLinks({
       icon: IconPhone,
     },
     {
-      label: "Phone",
-      value: contact.phone2,
-      href: `tel:${contact.phone2.replace(/\s+/g, "")}`,
-      icon: IconPhone,
-    },
-    {
       label: "Email",
       value: contact.email,
       href: `https://mail.google.com/mail/?view=cm&fs=1&to=${contact.email}`,

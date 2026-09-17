@@ -48,7 +48,6 @@ export interface SiteContent {
   };
   contact: {
     phone: string;
-    phone2: string;
     email: string;
     instagram: string;
     linktree: string;
