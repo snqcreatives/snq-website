@@ -3,7 +3,7 @@
   "shortName": "SNQ",
   "tagline": "Independent stories, shot for the internet.",
   "founded": "2021",
-  "youtubeChannel": "https://www.youtube.com/@snqstudios",
+  "youtubeChannel": "https://www.youtube.com/@SNQFilm",
   "nav": [
     { "label": "About", "href": "/about" },
     { "label": "Work", "href": "/work" },
@@ -30,7 +30,7 @@
     "whatsapp": "https://wa.me/919540263989"
   },
   "socials": [
-    { "platform": "YouTube", "url": "https://www.youtube.com/@snqstudios" },
+    { "platform": "YouTube", "url": "https://www.youtube.com/@SNQFilm" },
     { "platform": "Instagram", "url": "https://www.instagram.com/snqcreatives" },
     { "platform": "WhatsApp", "url": "https://wa.me/919540263989" },
     { "platform": "Linktree", "url": "https://linktr.ee/snqstudios" }
