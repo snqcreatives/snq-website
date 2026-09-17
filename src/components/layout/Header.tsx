@@ -29,10 +29,8 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-colors duration-300 ${
-        scrolled
-          ? "border-b border-border bg-background/90 backdrop-blur-md"
-          : "border-b border-transparent bg-gradient-to-b from-black/70 to-transparent"
+      className={`bar-light sticky top-0 z-50 border-b border-border bg-background transition-shadow duration-300 ${
+        scrolled ? "shadow-sm" : ""
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">

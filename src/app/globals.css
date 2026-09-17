@@ -22,6 +22,17 @@
   --accent-hover: #5670a5;
 }
 
+.bar-light {
+  --background: #ffffff;
+  --surface: #f3f3e3;
+  --surface-hover: #ededec;
+  --foreground: #1d2c4c;
+  --muted: #6b6b64;
+  --border: #d8d8d0;
+  --accent: #1d2c4c;
+  --accent-hover: #364d80;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
