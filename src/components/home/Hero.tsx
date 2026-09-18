@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getSite, getHeroSeries } from "@/lib/content";
 import { gradientFromString } from "@/lib/palette";
@@ -6,13 +7,25 @@ import { IconYouTube, IconArrowUpRight } from "@/components/ui/icons";
 export default function Hero() {
   const site = getSite();
   const featured = getHeroSeries();
+  const heroImage = featured.episodes[0]?.thumbnail;
 
   return (
     <section className="relative h-[88vh] min-h-[560px] w-full overflow-hidden">
-      <div
-        className="absolute inset-0"
-        style={{ backgroundImage: gradientFromString(featured.title) }}
-      />
+      {heroImage ? (
+        <Image
+          src={heroImage}
+          alt={featured.title}
+          fill
+          priority
+          sizes="100vw"
+          className="scale-110 object-cover"
+        />
+      ) : (
+        <div
+          className="absolute inset-0"
+          style={{ backgroundImage: gradientFromString(featured.title) }}
+        />
+      )}
       {/* Legibility gradients, streaming-catalog style */}
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/10 to-transparent" />
