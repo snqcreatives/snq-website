@@ -20,7 +20,7 @@ export default function SocialRow({
             target="_blank"
             rel="noopener noreferrer"
             aria-label={social.platform}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-muted transition-colors hover:border-accent hover:text-accent"
+            className="flex h-10 w-10 items-center justify-center rounded-full bg-accent text-white transition-colors hover:bg-accent-hover"
           >
             <Icon className="h-4 w-4" />
           </a>

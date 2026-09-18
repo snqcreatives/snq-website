@@ -1,25 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1d1d1a;
-  --surface: #3d3d38;
-  --surface-hover: #48483f;
+  --background: #14182b;
+  --surface: #232a45;
+  --surface-hover: #2b325a;
   --foreground: #f3f3e3;
-  --muted: #abaaa1;
-  --border: #3d3d38;
+  --muted: #a8a9ad;
+  --border: #2b325a;
   --accent: #7d91ba;
   --accent-hover: #5670a5;
 }
 
+/* Header/footer bars: light, logo-matched surface so the navy logo mark
+   stays legible against the site's dark navy body. */
 .bar-light {
-  --background: #ffffff;
-  --surface: #f3f3e3;
-  --surface-hover: #ededec;
-  --foreground: #1d2c4c;
-  --muted: #6b6b64;
-  --border: #d8d8d0;
-  --accent: #1d2c4c;
-  --accent-hover: #364d80;
+  --background: #f3f3e3;
+  --surface: #ededec;
+  --surface-hover: #e3e2d2;
+  --foreground: #1b2a4b;
+  --muted: #6b6f80;
+  --border: #d7dae6;
+  --accent: #1b2a4b;
+  --accent-hover: #33456e;
+  background: linear-gradient(120deg, #f3f3e3 0%, #e7e9f2 100%);
 }
 
 @theme inline {
@@ -41,7 +44,13 @@ html {
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(
+    180deg,
+    #1b2a4b 0%,
+    var(--background) 30%,
+    var(--background) 70%,
+    #1b2a4b 100%
+  ) fixed;
   color: var(--foreground);
 }
 
