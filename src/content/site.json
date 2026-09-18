@@ -25,13 +25,13 @@
     "phone": "+91 77425 00574",
     "email": "snqcreatives@gmail.com",
     "instagram": "https://www.instagram.com/snqcreatives",
-    "linktree": "https://linktr.ee/snqstudios",
+    "linktree": "https://linktr.ee/snqcreatives",
     "whatsapp": "https://wa.me/917742500574"
   },
   "socials": [
     { "platform": "YouTube", "url": "https://www.youtube.com/@SNQFilm" },
     { "platform": "Instagram", "url": "https://www.instagram.com/snqcreatives" },
     { "platform": "WhatsApp", "url": "https://wa.me/917742500574" },
-    { "platform": "Linktree", "url": "https://linktr.ee/snqstudios" }
+    { "platform": "Linktree", "url": "https://linktr.ee/snqcreatives" }
   ]
 }
