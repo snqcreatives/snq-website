@@ -15,6 +15,7 @@ export interface Series {
   description: string;
   poster?: string;
   featured?: boolean;
+  playlistUrl?: string;
   episodes: Episode[];
 }
 

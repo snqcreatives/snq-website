@@ -82,7 +82,7 @@ export default async function SeriesDetailPage({
         </div>
 
         <a
-          href={series.episodes[0]?.youtubeUrl}
+          href={series.playlistUrl || series.episodes[0]?.youtubeUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-foreground transition-colors hover:text-accent"
