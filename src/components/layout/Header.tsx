@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import Logo from "@/components/layout/Logo";
-import ThemeToggle from "@/components/layout/ThemeToggle";
 import { getSite } from "@/lib/content";
 
 const site = getSite();
@@ -53,11 +52,9 @@ export default function Header() {
               </Link>
             );
           })}
-          <ThemeToggle />
         </nav>
 
         <div className="flex items-center gap-1 md:hidden">
-          <ThemeToggle />
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
