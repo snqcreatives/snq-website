@@ -21,10 +21,12 @@ export default function AboutPage() {
               Our Vision
             </h3>
           </div>
-          <div className="lg:col-span-2">
-            <p className="text-lg leading-relaxed text-foreground/90">
-              {site.about.vision}
-            </p>
+          <div className="space-y-6 lg:col-span-2">
+            {site.about.vision.map((paragraph, i) => (
+              <p key={i} className="text-lg leading-relaxed text-foreground/90">
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
 

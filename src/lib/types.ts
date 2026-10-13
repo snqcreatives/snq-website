@@ -44,7 +44,7 @@ export interface SiteContent {
     subheadline: string;
   };
   about: {
-    vision: string;
+    vision: string[];
     story: string[];
   };
   contact: {
